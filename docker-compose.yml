@@ -13,8 +13,7 @@ services:
     environment:
       POSTGRES_PASSWORD: 123
       POSTGRES_USER: db_user
-      POSTGRES_DB: db_name
-      
+      POSTGRES_DB: db_name 
     django_gunicorn:
       volumes:
         - static:/static
@@ -32,10 +31,8 @@ services:
         - "80:80"
       depends_on:
         - django_gunicorn
-
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+      adminer:
+        image: adminer
+        restart: always
+        ports:
+          - 8080:8080
