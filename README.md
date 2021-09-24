@@ -13,3 +13,9 @@ SSH
 	
 ssh root@23.239.19.100
 Koder123!
+
+AApanel
+
+http://23.239.19.100:8888/koderpanel
+username: kodergroup
+password: Koder123!
