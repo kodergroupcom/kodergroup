@@ -7,3 +7,9 @@ parol: Koder123!
 
 Hosting : linode.com
 Googlela giriş kodergroup@gmail.com
+
+
+SSH
+	
+ssh root@23.239.19.100
+Koder123!
